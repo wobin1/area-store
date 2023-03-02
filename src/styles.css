@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0;}
+
+@font-face {
+    font-family: "Inter";
+    src: url('/assets/fonts/font-inter/inter-Reqular');
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 0;
+    width: min(90%, 75rem);
+    min-width: 320px;
+    /* background: rgb(247, 250, 252); */
+}
+
+.invincible {
+    display: block;
+}
+
+@media (min-width: 821px){
+    .invincible {
+        display: none;
+    }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

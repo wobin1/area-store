@@ -1,0 +1,79 @@
+.news-letter-section {
+    background: #EFF2F4;
+    height: 190px;
+    min-width: 322px;
+}
+
+.news-letter {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.news-letter-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #1C1C1C;
+}
+
+.news-letter-content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #606060;
+}
+
+.form-section {
+    width: min(90%, 392px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.button {
+    height: 40px;
+    width: 30%;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
