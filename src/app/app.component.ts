@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'area-stores';
+
+  sidenav:boolean=false;
+
+  toggleSidenav(){
+    this.sidenav = !this.sidenav;
+  }
+
+
 }

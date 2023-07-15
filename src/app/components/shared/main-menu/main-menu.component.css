@@ -1,3 +1,6 @@
+.menu-mobile {
+    position: relative;    
+}
 
 
 .main-menu-section {
@@ -5,9 +8,7 @@
     /* height: 142px; */
 }
 
-.menu-mobile {
-    
-}
+
 
 .mobile-top-menu {
     padding: 1rem;

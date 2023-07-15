@@ -1,4 +1,4 @@
-<div class="main-menu-section">
+<div class="main-menu-section" *ngIf="!cartPage">
     <div class="container">
 
         <div class="menu-desktop invincible">
@@ -88,8 +88,8 @@
 
         <div class="menu-mobile">
             <div class="mobile-top-menu">
-                <div class="logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" height="20"fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <div class="logo" (click)="toggle()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" height="30"fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                       </svg>
                     <img src="/assets/images/img/logo.png" alt="">
@@ -133,8 +133,12 @@
                     <div class="badge">Grains</div>
                 </div>
             </div>
-
             
         </div>
+
     </div>
+</div>
+
+<div class="cart-menu" *ngIf="cartPage">
+    <app-menu-navigation></app-menu-navigation>
 </div>

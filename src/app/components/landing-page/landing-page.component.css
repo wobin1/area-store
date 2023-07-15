@@ -2,3 +2,13 @@
     width: fit-content;
     max-width: 1300px;
 }
+
+.menu-components, 
+.hero-component, 
+.verified-stores-components, 
+.unverified-stores-components,
+.areas-covered-component,
+.news-letter-component,
+.footer-component {
+    margin-bottom: 2rem;
+}

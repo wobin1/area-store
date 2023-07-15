@@ -11,7 +11,7 @@ const routes:any = [
   {path: '', component: LandingPageComponent},
   {path: 'shop', component: ShopPageComponent},
   {path: 'product-detail', component: ProductDetailComponent},
-  {path: 'cart', component: CartComponent},
+  {path: 'cart', component: CartComponent}
 
 ]
 
